@@ -1,0 +1,405 @@
+#box{
+    height: 70px;
+}
+#box #logo{
+    bottom: 0%;
+}
+/* 轮播文字 */
+#video #wrap{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    overflow: hidden;
+}
+#wrap div{
+    width: 390px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin-left: -195px;
+    margin-top: -200px;
+    transition: all 1s ease 0s;
+	opacity: 0;
+}
+#wrap div img{
+    width: 390px;
+    height: 250px;
+}
+#wrap div p{
+    text-align: center;
+    color: white;
+}
+#wrap div p:nth-child(2){
+    font-size: 16px;
+    margin-top: 30px;
+}
+#wrap div p:nth-child(3){
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+#gray{
+    /* margin-top: -210px; */
+    height: 100px;
+}
+#gray div #change_gray{
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 50px;
+}
+#gray div{
+    display: inline-block;
+    width: 19%;
+    height: 100px;
+}
+#gray div #change_gray{
+    font-size: 30px;
+}
+#gray div span:nth-child(2){
+    font-size: 14px;
+}
+
+#top_text{
+    margin: 50px auto;
+    width: 1000px;
+    height: 130px;
+}
+#top_text div{
+    width: 200px;
+    height: 130px;
+    margin-left: 30px;
+}
+#top_text div p{
+    width: 200px;
+    height: 130px;
+}
+#top_textA{
+    background: url(../images/1.png);
+    background-size: 200px 130px;
+}
+#top_textA:hover{
+    background: url(../images/11.png);
+    background-size: 200px 130px;
+}
+#top_textB{
+    background: url(../images/3.png);
+    background-size: 200px 130px;
+}
+#top_textB:hover{
+    background: url(../images/33.png);
+    background-size: 200px 130px;
+}
+
+#top_textC{
+    background: url(../images/4.png);
+    background-size: 200px 130px;
+}
+#top_textC:hover{
+    background: url(../images/44.png);
+    background-size: 200px 130px;
+}
+
+#top_textD{
+    background: url(../images/2.png);
+    background-size: 200px 130px;
+}
+#top_textD:hover{
+    background: url(../images/22.png);
+    background-size: 200px 130px;
+}
+/* 图 */
+#bot_change{
+    width: 900px;
+    height: 500px;
+}
+#bot_change #bot_change1 p:nth-child(1){
+    width: 420px;
+    height: 381px;
+    background: url(../images/three/a1.png);
+    background-size: 420px 381px;
+}
+#bot_change #bot_change1 p:nth-child(2){
+    width: 450px;
+    height: 500px;
+    background: url(../images/item11.png);
+    background-size: 450px 500px;
+}
+
+#bot_change #bot_change2 p:nth-child(1){
+    width: 420px;
+    height: 381px;
+    background: url(../images/three/b1.png);
+    background-size: 420px 381px;
+}
+#bot_change #bot_change2 p:nth-child(2){
+    width: 450px;
+    height: 500px;
+    background: url(../images/item14.png);
+    background-size: 450px 500px;
+}
+
+#bot_change #bot_change3 p:nth-child(1){
+    width: 420px;
+    height: 381px;
+    background: url(../images/three/c1.png);
+    background-size: 420px 381px;
+}
+#bot_change #bot_change3 p:nth-child(2){
+    width: 450px;
+    height: 500px;
+    background: url(../images/item13.png);
+    background-size: 450px 500px;
+}
+
+#bot_change #bot_change4 p:nth-child(1){
+    width: 420px;
+    height: 381px;
+    background: url(../images/three/d1.png);
+    background-size: 420px 381px;
+}
+#bot_change #bot_change4 p:nth-child(2){
+    width: 450px;
+    height: 500px;
+    background: url(../images/item12.png);
+    background-size: 450px 500px;
+}
+
+#back_fixed span{
+    width: 800px;
+    height: 330px;
+    background: url(../images/shebei2.png);
+    background-size: 800px 330px;
+    display: inline-block;
+    margin-top: 95px;
+}
+
+/* 我们的设计流程 */
+#load{
+    width: 100%;
+    height: 680px;
+    background: url(../images/secBg3.jpg);
+    overflow: hidden;
+}
+#load #load_box{
+    width: 900px;
+    margin: 0 auto;
+}
+#load #load_box div{
+    width: 130px;
+    height: 150px;
+    display: inline-block;
+    margin-top: 200px
+}
+#load #load_a{
+    background: url(../images/yuan1.png);
+    background-size: 130px 150px;
+    margin-right: 50px;
+}
+#load #load_b{
+    background: url(../images/yuan2.png);
+    background-size: 130px 150px;
+    margin-right: 50px;
+}
+#load #load_c{
+    background: url(../images/yuan3.png);
+    background-size: 130px 150px;
+    margin-right: 50px;
+}
+#load #load_d{
+    background: url(../images/yuan4.png);
+    background-size: 130px 150px;
+    margin-right: 50px;
+}
+#load #load_e{
+    background: url(../images/yuan5.png);
+    background-size: 130px 150px;
+}
+#chakan{
+    width: 165px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 100px auto;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+}
+/* 我们的案例 */
+#our{
+    width: 100%;
+    height: 680px;
+    box-shadow: inset 0px 10px 10px #ccc;
+    border: 1px solid transparent;
+    overflow: hidden;
+}
+#our_a{
+    width: 470px;
+    height: 170px;
+    background: url(../images/ourA.png);
+    margin: 70px auto;
+}
+#our ul{
+    width: 900px;
+    margin: 0 auto;
+}
+#our ul li{
+    width: 215px;
+    height: 200px;
+    margin-right: 10px;
+    float: left;
+}
+#our_li1{
+    background: url(../images/intro_1458974456393_imgg.jpg);
+    background-size: 215px 200px;
+}
+#our_li2{
+    background: url(../images/intro_1452859512140_09c.jpg);
+    background-size: 215px 200px;
+}
+#our_li3{
+    background: url(../images/intro_1453349577451_12.jpg);
+    background-size: 215px 200px;
+}
+#our_li4{
+    background: url(../images/intro_1448422045722_09b.jpg);
+    background-size: 215px 200px;
+}
+/* 新闻 */
+#new{
+    width: 100%;
+    height: 720px;
+    box-shadow: inset 0px 10px 10px #ccc;
+    border: 1px solid transparent;
+    overflow: hidden;
+}
+#new #new_div{
+    width: 340px;
+    height: 150px;
+    background: url(../images/new.png);
+    margin: 70px auto;
+}
+#new_ul{
+    width: 930px;
+    margin: 100px auto;
+}
+#new_ul #new_li{
+    width: 280px;
+    height: 200px;
+    float: left;
+    margin-right: 30px;
+}
+#new_ul #new_li #new_a li{
+    position: relative;
+}
+#new_ul #new_li #new_a li h1{
+    border-left:4px solid crimson;
+    padding: 10px; 
+}
+#new_ul #new_li #new_a li span{
+    font-size: 12px;
+    line-height: 30px;
+}
+#new_ul #new_li #new_a li span:nth-child(1){
+    float: left;
+}
+#new_ul #new_li #new_a li span:nth-child(2){
+    float: right;
+    color: #ccc;
+}
+#red{
+    width: 100%;
+    height: 500px;
+    background: url(../images/red.png);
+    background-size: 100% 500px;
+}
+
+/* 向上 */
+#red_white{
+    width: 900px;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+#red_white div{
+    width: 200px;
+    height: 280px;
+    display: inline-block;
+    margin-left: 14px;
+    margin-bottom: 50px;
+}
+#red_white div:nth-child(1){
+    background: url(../images/three/1.jpg);
+    background-size: 200px 280px;
+}
+#red_white div:nth-child(1):hover{
+    background: url(../images/three/11.jpg);
+    background-size: 200px 280px;
+    box-shadow: 6px 6px 5px #ccc;
+}
+#red_white div:nth-child(2){
+    background: url(../images/three/2.jpg);
+    background-size: 200px 280px;
+}
+#red_white div:nth-child(2):hover{
+    background: url(../images/three/22.jpg);
+    background-size: 200px 280px;
+    box-shadow: 6px 6px 5px #ccc;
+}
+#red_white div:nth-child(3){
+    background: url(../images/three/3.jpg);
+    background-size: 200px 280px;
+}
+#red_white div:nth-child(3):hover{
+    background: url(../images/three/33.jpg);
+    background-size: 200px 280px;
+    box-shadow: 6px 6px 5px #ccc;
+}
+#red_white div:nth-child(4){
+    background: url(../images/three/4.jpg);
+    background-size: 200px 280px;
+}
+#red_white div:nth-child(4):hover{
+    background: url(../images/three/44.jpg);
+    background-size: 200px 280px;
+    box-shadow: 6px 6px 5px #ccc;
+}
+#red_white div:nth-child(5){
+    background: url(../images/three/1.jpg);
+    background-size: 200px 280px;
+}
+#red_white div:nth-child(5):hover{
+    background: url(../images/three/11.jpg);
+    background-size: 200px 280px;
+    box-shadow: 6px 6px 5px #ccc;
+}
+#red_white div:nth-child(6){
+    background: url(../images/three/2.jpg);
+    background-size: 200px 280px;
+}
+#red_white div:nth-child(6):hover{
+    background: url(../images/three/22.jpg);
+    background-size: 200px 280px;
+    box-shadow: 6px 6px 5px #ccc;
+}
+#red_white div:nth-child(7){
+    background: url(../images/three/3.jpg);
+    background-size: 200px 280px;
+}
+#red_white div:nth-child(7):hover{
+    background: url(../images/three/33.jpg);
+    background-size: 200px 280px;
+    box-shadow: 6px 6px 5px #ccc;
+}
+#red_white div:nth-child(8){
+    background: url(../images/three/4.jpg);
+    background-size: 200px 280px;
+}
+#red_white div:nth-child(8):hover{
+    background: url(../images/three/44.jpg);
+    background-size: 200px 280px;
+    box-shadow: 6px 6px 5px #ccc;
+}

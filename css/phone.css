@@ -1,0 +1,423 @@
+#video video{
+    display: none;
+}
+#video{
+    width: 100%;
+    height: 960px;
+    background: url(../images/ban1.jpg);
+    background-size: 100% 960px;
+}
+#box #logo{
+    display: none;
+}
+#box #nav{
+    display: none;
+}
+/* 轮播文字 */
+#video #wrap{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    overflow: hidden;
+}
+#wrap div{
+    width: 390px;
+    height: 360px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin-left: -195px;
+    margin-top: -180px;
+    transition: all 1s ease 0s;
+	opacity: 0;
+}
+#wrap div img{
+    width: 370px;
+    height: 240px;
+}
+#wrap div p{
+    text-align: center;
+    color: white;
+}
+#wrap div p:nth-child(2){
+    font-size: 16px;
+    margin-top: 30px;
+}
+#wrap div p:nth-child(3){
+    font-size: 14px;
+    margin-top: 20px;
+}
+#wrap .active{
+	z-index: 10;
+	opacity: 1;
+}
+
+#gray{
+    display: none;
+}
+/* tab切换 */
+#top_text{
+    display: none;
+}
+/* 圆点 */
+#cirleAll{
+    display: block;
+    margin-top: 20px;
+}
+/* 图 */
+#bot_change{
+    width: 500px;
+    height: 540px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 15;
+    overflow: hidden;
+}
+#bot_change #bot_change1 p:nth-child(1){
+    width: 360px;
+    height: 390px;
+    background: url(../images/three/a3.png);
+    position: absolute;
+    left: 15%;
+    top: 80px;
+}
+#bot_change #bot_change1 p:nth-child(2){
+    display: none;
+}
+
+#bot_change #bot_change2 p:nth-child(1){
+    width: 360px;
+    height: 390px;
+    background: url(../images/three/b3.png);
+    position: absolute;
+    left: 15%;
+    top: 80px;
+}
+#bot_change #bot_change2 p:nth-child(2){
+    display: none;
+}
+
+#bot_change #bot_change3 p:nth-child(1){
+    width: 360px;
+    height: 390px;
+    background: url(../images/three/c3.png);
+    position: absolute;
+    left: 15%;
+    top: 80px;
+}
+#bot_change #bot_change3 p:nth-child(2){
+    display: none;
+}
+
+#bot_change #bot_change4 p:nth-child(1){
+    width: 360px;
+    height: 390px;
+    background: url(../images/three/d3.png);
+    position: absolute;
+    left: 15%;
+    top: 80px;
+}
+#bot_change #bot_change4 p:nth-child(2){
+    display: none;
+}
+#bot_change .bot_div{
+    display: none;
+}
+#bot_change .bot_show{
+    display: block;
+}
+
+#back_fixed span{
+    width: 400px;
+    height: 230px;
+    background: url(../images/shebei2.png);
+    background-size: 400px 230px;
+    display: inline-block;
+    margin-top: 95px;
+}
+
+/* 我们的设计流程 */
+#load{
+    width: 100%;
+    height: 680px;
+    background: url(../images/secBg3.jpg);
+    overflow: hidden;
+}
+#load #load_box{
+    width: 390px;
+    height: 510px;
+    margin: 0 auto;
+}
+#load #load_box div{
+    width: 130px;
+    height: 150px;
+    display: inline-block;
+    margin-top: 20px;
+}
+#load #load_a{
+    background: url(../images/yuan1.png);
+    background-size: 130px 150px;
+    margin-right: 0px;
+    margin-left: 50px;
+}
+#load #load_b{
+    background: url(../images/yuan2.png);
+    background-size: 130px 150px;
+    margin-right: 0px;
+    margin-left: 40px;
+}
+#load #load_c{
+    background: url(../images/yuan3.png);
+    background-size: 130px 150px;
+    margin-right: 0px;
+    margin-left: 50px;
+}
+#load #load_d{
+    background: url(../images/yuan4.png);
+    background-size: 130px 150px;
+    margin-right: 0px;
+    margin-left: 40px;
+}
+#load #load_e{
+    background: url(../images/yuan5.png);
+    background-size: 130px 150px;
+    margin-left: 130px;
+}
+#chakan{
+    width: 165px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 70px auto;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+/* 我们的案例 */
+#our{
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0px 10px 10px #ccc;
+    border: 1px solid transparent;
+    overflow: hidden;
+}
+#our_a{
+    width: 470px;
+    height: 170px;
+    background: url(../images/ourA.png);
+    margin: 70px auto;
+}
+#our ul{
+    width: 315px;
+    margin: 0 auto;
+}
+#our ul li{
+    width: 315px;
+    height: 200px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    float: left;
+}
+#our_li1{
+    background: url(../images/intro_1458974456393_imgg.jpg);
+    background-size: 315px 200px;
+}
+#our_li2{
+    background: url(../images/intro_1452859512140_09c.jpg);
+    background-size: 315px 200px;
+}
+#our_li3{
+    background: url(../images/intro_1453349577451_12.jpg);
+    background-size:315px 200px;
+}
+#our_li4{
+    background: url(../images/intro_1448422045722_09b.jpg);
+    background-size: 315px 200px;
+}
+
+/* 新闻 */
+#new{
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0px 10px 10px #ccc;
+    border: 1px solid transparent;
+    overflow: hidden;
+}
+#new #new_div{
+    width: 340px;
+    height: 150px;
+    background: url(../images/new.png);
+    margin: 70px auto;
+}
+#new_ul{
+    width: 400px;
+    margin: 70px auto;
+}
+#new_ul #new_li{
+    width: 380px;
+    height: 200px;
+    float: left;
+    margin-right: 0px;
+    margin-bottom: 50px;
+}
+#new_ul #new_li #new_a li{
+    position: relative;
+}
+#new_ul #new_li #new_a li h1{
+    border-left:4px solid crimson;
+    padding: 10px; 
+}
+#new_ul #new_li #new_a li span{
+    font-size: 14px;
+    line-height: 30px;
+}
+#new_ul #new_li #new_a li span:nth-child(1){
+    float: left;
+}
+#new_ul #new_li #new_a li span:nth-child(2){
+    float: right;
+    color: #ccc;
+}
+#red{
+    width: 100%;
+    height: 500px;
+    background: url(../images/red1.png);
+    background-size: 100% 500px;
+}
+/* 底部 */
+#foot{
+    width: 100%;
+    height: 200px;
+    background: url(../images/secBg.png);
+    overflow: hidden;
+}
+#foot_ul{
+    width: 960px;
+    height: 140px;
+    margin: 0 auto;
+    display: none;
+}
+#foot_text{
+    width: 400px;
+    height: 80px;
+    margin: 0px auto;
+    text-align: center;
+    color: #eee;
+}
+#foot_textP{
+    margin-top: 70px;
+}
+
+#arrow{
+    display: block;
+}
+
+/* 服务 */
+#top_Big #fuwu_gray{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: url(../images/secBg.png);
+}
+#top_Big video{
+    display: none;
+}
+
+#white_btn{
+    display: block;
+}
+/* 向上 */
+#red_white{
+    width: 300px;
+    height: 100%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    /* position: relative; */
+}
+#red_white div{
+    width: 300px;
+    height: 310px;
+    display: inline-block;
+    margin-left: 14px;
+    margin-bottom: 50px;
+    /* position: absolute; */
+}
+#red_white div:nth-child(1){
+    background: url(../images/three/1.jpg);
+    background-size: 300px 310px;
+}
+#red_white div:nth-child(1):hover{
+    background: url(../images/three/11.jpg);
+    background-size: 300px 310px;
+    box-shadow: 6px 6px 5px #ccc;
+}
+#red_white div:nth-child(2){
+    background: url(../images/three/2.jpg);
+    background-size: 300px 310px;
+}
+#red_white div:nth-child(2):hover{
+    background: url(../images/three/22.jpg);
+    background-size: 300px 310px;
+    box-shadow: 6px 6px 5px #ccc;
+}
+#red_white div:nth-child(3){
+    background: url(../images/three/3.jpg);
+    background-size: 300px 310px;
+}
+#red_white div:nth-child(3):hover{
+    background: url(../images/three/33.jpg);
+    background-size: 300px 310px;
+    box-shadow: 6px 6px 5px #ccc;
+}
+#red_white div:nth-child(4){
+    background: url(../images/three/4.jpg);
+    background-size: 300px 310px;
+}
+#red_white div:nth-child(4):hover{
+    background: url(../images/three/44.jpg);
+    background-size: 300px 310px;
+    box-shadow: 6px 6px 5px #ccc;
+}
+#red_white div:nth-child(5){
+    background: url(../images/three/1.jpg);
+    background-size: 300px 310px;
+}
+#red_white div:nth-child(5):hover{
+    background: url(../images/three/11.jpg);
+    background-size: 300px 310px;
+    box-shadow: 6px 6px 5px #ccc;
+}
+#red_white div:nth-child(6){
+    background: url(../images/three/2.jpg);
+    background-size: 300px 310px;
+}
+#red_white div:nth-child(6):hover{
+    background: url(../images/three/22.jpg);
+    background-size: 300px 310px;
+    box-shadow: 6px 6px 5px #ccc;
+}
+#red_white div:nth-child(7){
+    background: url(../images/three/3.jpg);
+    background-size: 300px 310px;
+}
+#red_white div:nth-child(7):hover{
+    background: url(../images/three/33.jpg);
+    background-size: 300px 310px;
+    box-shadow: 6px 6px 5px #ccc;
+}
+#red_white div:nth-child(8){
+    background: url(../images/three/4.jpg);
+    background-size: 300px 310px;
+}
+#red_white div:nth-child(8):hover{
+    background: url(../images/three/44.jpg);
+    background-size: 300px 310px;
+    box-shadow: 6px 6px 5px #ccc;
+}
